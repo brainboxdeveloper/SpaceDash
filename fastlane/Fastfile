@@ -33,5 +33,5 @@ lane :build_version do
   commit_version_bump(xcodeproj: "SpaceDash.xcodeproj")
   add_git_tag( grouping: "fastlane-builds" )
   push_to_git_remote
-
+end
 end
