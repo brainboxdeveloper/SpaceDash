@@ -11,7 +11,7 @@ import Foundation
 struct Constants {
     
     struct NetworkManager {
-        static let baseURL = "https://api.spacexdata.com/v3/"
+        static let baseURL = "https://api.spacexdata.com/v4/"
         static let upcomingLaunchURL = "launches/Upcoming"
         
     }
